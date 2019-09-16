@@ -1,6 +1,53 @@
+body {
+  background-color: #F7F7F7;
+}
+
+.navbar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  width: 4rem;
+  margin: 0.8rem 0.4rem;
+}
+
+.fa-bars {
+  font-size: 3.5rem;
+  margin: 0.8rem 0.4rem;
+}
+
+.items ul li {
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 6rem;
+}
+
+.items ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.items ul a:hover {
+  color: grey;
+}
+
 .container {
   width: 80%;
   height: 100vh;
   margin: 0 auto;
 }
 
+@media screen and (max-width:961px) {
+  .items ul {
+    display: none;
+  }
+}
+
+@media screen and (min-width:961px) {
+  .fa-bars {
+    display: none;
+  }
+}
