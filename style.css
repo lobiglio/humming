@@ -33,6 +33,7 @@ body {
 .items ul a:hover {
   color: grey;
 }
+/* Banner */
 
 .banner 
 {
@@ -50,6 +51,7 @@ body {
   font-size: 32px;
   font-weight: bold;
   text-align: center;
+  text-align: center;
 }
 
 .banner p 
@@ -61,16 +63,40 @@ body {
   text-align: center;
 }
 
-.container {
+.container 
+{
   width: 80%;
   height: 100vh;
   margin: 0 auto;
 }
 
-@media screen and (max-width:961px) {
+/* Media */
+
+@media screen and (max-width:961px) 
+{
+
   .items ul {
     display: none;
   }
+
+  .banner 
+  {
+    height: 20px;
+    
+  }
+
+.banner h1
+{
+  font-size: 20px;
+}
+
+.banner p
+
+{
+font-size: 17px;
+text-align: center;
+}
+
 }
 
 @media screen and (min-width:961px) {
