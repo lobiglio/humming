@@ -3,6 +3,14 @@ body
   background-color: #F7F7F7;
 }
 
+h1, h2, h3 {
+  font-family: 'Roboto Slab', serif;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
@@ -105,8 +113,8 @@ h2 {
 .card-menu {
   background-size: cover;
   background-position: center;
-  height: 150px;
-  width: 250px;
+  height: 200px;
+  width: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -132,7 +140,7 @@ fieldset {
 
 /* Events */
 .card-event {
-  background-color: #fcf9ea;
+  background-color: white;
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   padding: 1%;
@@ -229,7 +237,7 @@ text-align: center;
     justify-content: space-between;
     }
   .card-menu {
-    height: 200px;
-    width: 300px;
+    height: 300px;
+    width: 450px;
   }
 }
