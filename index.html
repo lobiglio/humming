@@ -37,43 +37,52 @@
   <!-- Formulaire resa -->
   <section>
 
-    <h2 id="contact">contact us</h2>
+    <h2 id="contact">Contact</h2>
     
     <form action="contact.html" method="post">
     
     <fieldset>
         <div>
-            <label for="name"><img src=/home/pierrekzo/Documents/Sitesweb/Humming/img/user-regular.svg></label>
+            <label for="name"><img src="https://img.icons8.com/material-outlined/20/000000/head-profile.png"></label>
             <input type="text" name="your name" id="name">
         </div>
     
         <div>
-            <label for="email"><img src=/home/pierrekzo/Documents/Sitesweb/Humming/img></label>
+            <label for="email"><img src="https://img.icons8.com/ios-glyphs/20/000000/email.png"></label>
             <input type="text" name="your email" id="email" required>
         </div>
         
         <div>
-            <label for="tel"><img src=/home/pierrekzo/Documents/Sitesweb/Humming/img></label>
+            <label for="tel"><img src="https://img.icons8.com/windows/20/000000/phone.png"></label>
             <input type="tel" name="your phone number" id="tel">
         </div>
-    
+    <br>
         <div>
                 <select name="Topic" id="">
-                   <option>general informations</option>
-                   <option>complain</option>
-                   <option>Miscellanous</option>
+                <img src="https://img.icons8.com/windows/32/000000/topic.png">
+                   <option>Informations</option>
+                   <option>Réclamations</option>
+                   <option>Divers</option>
                 </select>
         </div>
+        
+    <br>
+
         <div>
-            <textarea placeholder="your message">
-    
-    
+
+            <label for="message"><img src="https://img.icons8.com/material-outlined/24/000000/communication.png"></label>
+
+            <textarea id="message" name="message" cols="25" rows="5">
+                  
             </textarea>
         </div>
     
     </fieldset>
+
+    <br>
+    
     <div class="button">
-            <button type="submit">Send</button>
+            <button type="submit">Soumettre</button>
         </div>
     
     </form>
