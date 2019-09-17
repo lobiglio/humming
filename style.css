@@ -1,36 +1,43 @@
-body {
+body 
+{
   background-color: #F7F7F7;
 }
 
-.navbar {
+.navbar 
+{
   background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-#logo {
+#logo 
+{
   width: 4rem;
   margin: 0.8rem 0.4rem;
 }
 
-.fa-bars {
+.fa-bars 
+{
   font-size: 3.5rem;
   margin: 0.8rem 0.4rem;
 }
 
-.items ul li {
+.items ul li 
+{
   text-decoration: none;
   display: inline-block;
   margin-right: 6rem;
 }
 
-.items ul a {
+.items ul a 
+{
   text-decoration: none;
   color: black;
 }
 
-.items ul a:hover {
+.items ul a:hover 
+{
   color: grey;
 }
 /* Banner */
@@ -75,14 +82,14 @@ body {
 @media screen and (max-width:961px) 
 {
 
-  .items ul {
+.items ul 
+  {
     display: none;
   }
 
-  .banner 
+.banner 
   {
     height: 20px;
-    
   }
 
 .banner h1
@@ -103,4 +110,5 @@ text-align: center;
   .fa-bars {
     display: none;
   }
+
 }
