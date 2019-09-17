@@ -117,11 +117,21 @@ form {
   text-align: center;
 }
 
-fieldset {
-  margin:0 auto;
-  padding: 10px;
+.nomform {
+  width: 90%;
 }
 
+.email {
+  width: 90%;
+}
+
+.telephone {
+  width: 90%;
+}
+.numberofseats {
+  text-align-last: center;
+  width: 10%;
+}
 /* Media */
 
 @media screen and (max-width:961px) {
@@ -153,5 +163,21 @@ text-align: center;
   .card-menu {
     height: 200px;
     width: 300px;
+  }
+  .nomform {
+    width: 90%;
+  }
+  .email {
+    width: 90%;
+  }
+    .telephone {
+    width: 90%;
+  }
+  .typeofrequest {
+    align-content: left;
+  }
+  .message {
+    width: 80%;
+    height: 120px;
   }
 }

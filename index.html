@@ -55,57 +55,55 @@
   <!-- Formulaire resa -->
   <section>
 
-    <h2 id="contact">Contact</h2>
+    <h2 id="Booking">Booking</h2>
     
-    <form action="contact.html" method="post">
+    <form action="booking.html" method="post">
     
-    <fieldset>
         <div>
             <label for="name"><img src="https://img.icons8.com/material-outlined/20/000000/head-profile.png"></label>
-            <input type="text" name="your name" id="name">
+            <input type="text" name="your name" id="name" class="nomform" required>
         </div>
     
         <div>
             <label for="email"><img src="https://img.icons8.com/ios-glyphs/20/000000/email.png"></label>
-            <input type="text" name="your email" id="email" required>
+            <input type="text" name="your email" id="email" class="email" required>
         </div>
         
         <div>
             <label for="tel"><img src="https://img.icons8.com/windows/20/000000/phone.png"></label>
-            <input type="tel" name="your phone number" id="tel">
+            <input type="tel" name="your phone number" id="tel" class="telephone">
         </div>
     <br>
         <div>
-                <select name="Topic" id="">
-                <img src="https://img.icons8.com/windows/32/000000/topic.png">
-                   <option>Informations</option>
-                   <option>Réclamations</option>
-                   <option>Divers</option>
+          <label><img src="https://img.icons8.com/ios/30/000000/restaurant.png"></label>
+                <select name="Topic" class="numberofseats" required> 
+                   <option>1</option>
+                   <option>2</option>
+                   <option>3</option>
+                   <option>4</option>
+                   <option>5</option>
+                   <option>6</option>
+                   <option>+ 6</option>
                 </select>
         </div>
-        
     <br>
-
         <div>
 
             <label for="message"><img src="https://img.icons8.com/material-outlined/24/000000/communication.png"></label>
 
-            <textarea id="message" name="message" cols="25" rows="5">
+            <textarea id="message" name="message" cols="45" rows="5" class="message" required>
                   
             </textarea>
         </div>
-    
-    </fieldset>
-
     <br>
-    
-    <div class="button">
-            <button type="submit">Soumettre</button>
+        <div class="button">
+            <button type="submit">Send</button>
         </div>
     
     </form>
     
     </section>
+
   <!-- Avis -->
   <!-- Events -->
   <!-- Footer -->
