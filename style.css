@@ -1,6 +1,7 @@
 body 
 {
   background-color: #F7F7F7;
+  color: #5a3921;
 }
 
 h1, h2, h3 {
@@ -51,12 +52,12 @@ h3 {
 .items ul a 
 {
   text-decoration: none;
-  color: black;
+  color: #5a3921;
 }
 
 .items ul a:hover 
 {
-  color: grey;
+  color: #6b8c42;
 }
 /* Banner */
 
@@ -72,7 +73,7 @@ h3 {
 .banner h1 
 {
   margin: 0;
-  color: white;
+  color: #ffffb5;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 32px;
   font-weight: bold;
@@ -83,7 +84,7 @@ h3 {
 .banner p 
 {
   font-size: 20px;
-  color: white;
+  color: #ffffb5;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   text-align: center;
@@ -96,7 +97,7 @@ h2 {
 /* A propos */
 
 .apropos {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #5a3921;
 }
 
 /* Menu */
@@ -107,7 +108,7 @@ h2 {
   justify-content: center;
   align-items: center;
   padding-bottom: 64px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #5a3921;
 }
 
 .card-menu {
@@ -161,7 +162,7 @@ fieldset {
 
 .btn-green {
   text-decoration: none;
-  background-color: #43ab92;
+  background-color: #6b8c42;
   padding: 8px 24px;
   color: white;
   border-radius: 4px;
@@ -169,12 +170,12 @@ fieldset {
 }
 
 .btn-green:hover {
-  background-color: #3c9d9b;
+  background-color: #7bc67b;
 }
 
 /* footer */
 footer {
-  background-color: #5d5d5d;
+  background-color: #5a3921;
   display: flex;
   justify-content: space-between;
   align-items: center;
