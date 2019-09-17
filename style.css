@@ -40,6 +40,11 @@ body {
   margin: 0 auto;
 }
 
+.apropos {
+  border-bottom: 1px solid black;
+  padding-bottom: 64px;
+}
+
 h2 {
   text-align: center;
 }
