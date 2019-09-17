@@ -111,6 +111,17 @@ h2 {
   margin: 0 16px 16px 16px;
 }
 
+
+
+form {
+  text-align: center;
+}
+
+fieldset {
+  margin:0 auto;
+  padding: 10px;
+}
+
 /* Media */
 
 @media screen and (max-width:961px) {
