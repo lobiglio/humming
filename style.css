@@ -70,45 +70,62 @@ body
   text-align: center;
 }
 
-.container 
-{
-  width: 80%;
-  height: 100vh;
-  margin: 0 auto;
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 64px;
+  border-bottom: 1px solid black;
+}
+
+.card-menu {
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin: 0 16px 16px 16px;
 }
 
 /* Media */
 
 @media screen and (max-width:961px) 
-{
-
-.items ul 
-  {
+.items ul {
     display: none;
   }
-
-.banner 
-  {
+.banner {
     height: 20px;
   }
-
-.banner h1
-{
+.banner h1{
   font-size: 20px;
-}
-
-.banner p
-
-{
+  }
+.banner p{
 font-size: 17px;
 text-align: center;
-}
-
+  }
 }
 
 @media screen and (min-width:961px) {
   .fa-bars {
     display: none;
+    }
+  h2 {
+    text-align: left;
   }
-
+  .menu {
+    justify-content: space-between;
+    }
+  .card-menu {
+    height: 200px;
+    width: 300px;
+  }
 }
