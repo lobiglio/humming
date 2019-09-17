@@ -10,6 +10,7 @@ h1, h2, h3 {
 
 p {
   font-family: 'Lato', sans-serif;
+  overflow-wrap: break-word;
 }
 
 .container {
@@ -98,6 +99,7 @@ h2 {
 
 .apropos {
   border-bottom: 1px solid #5a3921;
+  word-wrap: initial;
 }
 
 /* Menu */
@@ -143,8 +145,10 @@ form {
   width: 90%;
 }
 .numberofseats {
-  text-align-last: center;
-  width: 10%;
+  width: 90%;
+}
+.message {
+  width: 80%;
 }
 
 /* Events */
@@ -224,15 +228,21 @@ footer a:hover {
 font-size: 17px;
 text-align: center;
   }
-  footer {
-    flex-direction: column;
-  }
-  footer a {
-    width: 30%;
-  }
-  .social-network {
-    margin-bottom: 16px;
-  }
+.textfordesktop {
+  display: none;
+}
+.message {
+  width: 90%;
+}
+footer {
+  flex-direction: column;
+}
+footer a {
+  width: 30%;
+}
+.social-network {
+  margin-bottom: 16px;
+}
 }
 
 @media screen and (min-width:961px) {
@@ -262,11 +272,9 @@ text-align: center;
   .telephone {
     width: 90%;
   }
-  .typeofrequest {
-    align-content: left;
-  }
   .message {
-    width: 80%;
+    width: 90%;
     height: 120px;
+    align-self: auto;
   }
 }
