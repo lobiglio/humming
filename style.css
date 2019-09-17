@@ -3,6 +3,11 @@ body
   background-color: #F7F7F7;
 }
 
+.container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
 .navbar 
 {
   background-color: white;
@@ -48,6 +53,7 @@ body
   background-position: center;
   padding: 150px 0;
   object-fit: cover;
+  margin-bottom: 64px;
 }
 
 .banner h1 
@@ -68,6 +74,15 @@ body
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.apropos {
+  border-bottom: 1px solid black;
+  padding-bottom: 64px;
 }
 
 .menu {
@@ -98,7 +113,7 @@ body
 
 /* Media */
 
-@media screen and (max-width:961px) 
+@media screen and (max-width:961px) {
 .items ul {
     display: none;
   }
