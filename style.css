@@ -5,9 +5,13 @@ body
 
 .container {
   width: 80%;
-  height: 100%;
   margin: 0 auto;
 }
+
+h3 {
+  text-align: center;
+}
+
 .navbar 
 {
   background-color: white;
@@ -81,10 +85,13 @@ h2 {
   text-align: center;
 }
 
+/* A propos */
+
 .apropos {
   border-bottom: 1px solid black;
-  padding-bottom: 64px;
 }
+
+/* Menu */
 
 .menu {
   display: flex;
@@ -112,6 +119,8 @@ h2 {
   margin: 0 16px 16px 16px;
 }
 
+/* Reservation */
+
 form {
   text-align: center;
 }
@@ -121,6 +130,41 @@ fieldset {
   padding: 10px;
 }
 
+/* Events */
+.card-event {
+  background-color: #fcf9ea;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  padding: 1%;
+  margin-bottom: 64px;
+}
+
+.content-event {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.content-event img {
+  width: 100%;
+  height: auto;
+}
+
+.btn-green {
+  text-decoration: none;
+  background-color: #43ab92;
+  padding: 8px 24px;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.btn-green:hover {
+  background-color: #3c9d9b;
+}
+
+/* footer */
 footer {
   background-color: #5d5d5d;
   display: flex;
