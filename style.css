@@ -40,6 +40,9 @@ body {
   margin: 0 auto;
 }
 
+h2 {
+  text-align: center;
+}
 @media screen and (max-width:961px) {
   .items ul {
     display: none;
@@ -49,5 +52,8 @@ body {
 @media screen and (min-width:961px) {
   .fa-bars {
     display: none;
+  }
+  h2 {
+    text-align: left;
   }
 }
