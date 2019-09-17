@@ -3,17 +3,30 @@ body
   background-color: #F7F7F7;
 }
 
+h1, h2, h3 {
+  font-family: 'Roboto Slab', serif;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
 .container {
   width: 80%;
-  height: 100%;
   margin: 0 auto;
 }
+
+h3 {
+  text-align: center;
+}
+
 .navbar 
 {
   background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 24px;
 }
 
 #logo 
@@ -80,10 +93,13 @@ h2 {
   text-align: center;
 }
 
+/* A propos */
+
 .apropos {
   border-bottom: 1px solid black;
-  padding-bottom: 64px;
 }
+
+/* Menu */
 
 .menu {
   display: flex;
@@ -97,8 +113,8 @@ h2 {
 .card-menu {
   background-size: cover;
   background-position: center;
-  height: 150px;
-  width: 250px;
+  height: 200px;
+  width: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -111,20 +127,17 @@ h2 {
   margin: 0 16px 16px 16px;
 }
 
-
+/* Reservation */
 
 form {
   text-align: center;
 }
-
 .nomform {
   width: 90%;
 }
-
 .email {
   width: 90%;
 }
-
 .telephone {
   width: 90%;
 }
@@ -132,6 +145,68 @@ form {
   text-align-last: center;
   width: 10%;
 }
+
+/* Events */
+.card-event {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  padding: 1%;
+  margin-bottom: 64px;
+}
+
+.content-event {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.content-event img {
+  width: 100%;
+  height: auto;
+}
+
+.btn-green {
+  text-decoration: none;
+  background-color: #43ab92;
+  padding: 8px 24px;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.btn-green:hover {
+  background-color: #3c9d9b;
+}
+
+/* footer */
+footer {
+  background-color: #5d5d5d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 5px;
+  margin-left: 24px;
+}
+
+footer a:hover {
+  color: rgb(190, 103, 21);
+}
+.social-network {
+  margin-left: 1%;
+}
+
+.links {
+  margin-right: 2%;
+}
+
 /* Media */
 
 @media screen and (max-width:961px) {
@@ -148,6 +223,15 @@ form {
 font-size: 17px;
 text-align: center;
   }
+  footer {
+    flex-direction: column;
+  }
+  footer a {
+    width: 30%;
+  }
+  .social-network {
+    margin-bottom: 16px;
+  }
 }
 
 @media screen and (min-width:961px) {
@@ -161,8 +245,8 @@ text-align: center;
     justify-content: space-between;
     }
   .card-menu {
-    height: 200px;
-    width: 300px;
+    height: 300px;
+    width: 450px;
   }
   .nomform {
     width: 90%;
@@ -170,7 +254,7 @@ text-align: center;
   .email {
     width: 90%;
   }
-    .telephone {
+  .telephone {
     width: 90%;
   }
   .typeofrequest {
