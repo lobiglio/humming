@@ -14,6 +14,7 @@ body
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 24px;
 }
 
 #logo 
@@ -111,8 +112,6 @@ h2 {
   margin: 0 16px 16px 16px;
 }
 
-
-
 form {
   text-align: center;
 }
@@ -120,6 +119,32 @@ form {
 fieldset {
   margin:0 auto;
   padding: 10px;
+}
+
+footer {
+  background-color: #5d5d5d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 5px;
+  margin-left: 24px;
+}
+
+footer a:hover {
+  color: rgb(190, 103, 21);
+}
+.social-network {
+  margin-left: 1%;
+}
+
+.links {
+  margin-right: 2%;
 }
 
 /* Media */
@@ -137,6 +162,15 @@ fieldset {
 .banner p{
 font-size: 17px;
 text-align: center;
+  }
+  footer {
+    flex-direction: column;
+  }
+  footer a {
+    width: 30%;
+  }
+  .social-network {
+    margin-bottom: 16px;
   }
 }
 
