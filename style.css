@@ -28,13 +28,16 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 24px;
   overflow: hidden;
   position: relative;
 }
 
 #myLinks {
   display: none;
+}
+
+.nav-links {
+  background-color: white;
 }
 
 .nav-links a {
@@ -88,6 +91,7 @@ h3 {
   background-position: center;
   padding: 150px 0;
   object-fit: cover;
+  margin-top: 24px;
   margin-bottom: 64px;
 }
 
