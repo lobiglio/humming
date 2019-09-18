@@ -21,6 +21,7 @@
         <li><a href="#ancre_booking">BOOKING</a></li>
         <li><a href="#ancre_comment">COMMENTS</a></li>
         <li><a href="#ancre_event">EVENTS</a></li>
+        <li><a href="#ancre_contact">CONTACT</a></li>
       </ul>
       <a href="javascript:void(0);"><i class="fas fa-bars burger" onclick="myFunction()"></i></a>
     </div>
@@ -28,8 +29,9 @@
   <div id="myLinks" class="nav-links">
     <a href="#ancre_menu">Menu</a>
     <a href="#ancre_booking">Booking</a>
-    <a href="#ancre_comment">Comment</a>
-    <a href="#ancre_event">Event</a>
+    <a href="#ancre_comment">Comments</a>
+    <a href="#ancre_event">Events</a>
+    <a href="#ancre_contact">Contact</a>
   </div>
 <div class="container">
 
@@ -45,10 +47,6 @@
 
   <!-- about us -->
 
-
-
-  
-
   <div class="apropos">
     <div class="card-event">
       <h2>About</h2>
@@ -63,7 +61,9 @@
       </div>   
     </div>
   </div>
+
   <!-- Menus -->
+
     <h2 id="ancre_menu">Menu</h2>
     <div class="menu">
       <div class="card-menu" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1540713434306-58505cf1b6fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)">
@@ -76,8 +76,8 @@
         Salads
       </div>
     </div>
-  <!-- Formulaire resa -->
 
+  <!-- Formulaire resa -->
 
   <section class="booking">
     <h2 id="ancre_booking">Booking</h2>  
@@ -120,88 +120,30 @@
   </section>
 
   <!-- Avis -->
-  <!--Leave a comment-->
-  <section>
-    <h2 id="ancre_comment">Leave us a comment</h2>
-    <form action="comment.html" method="post">
-      <div>
-         <label for="comment"><img src="https://img.icons8.com/windows/24/000000/talk-male--v2.png"></label>
-         <textarea id="comment" name="comment" cols="320" rows="5" class="comment" required></textarea>
-      </div>
-      <br>
-      <div>
-        <a href="#" class="btn-green">Send</a>
-      </div>
-    </form>
- 
-  </section>
-  
-  <br>
-  
-  <hr>
 
-  
-  <!-- Avis -->
-
-
-<h2>Avis</h2>
-
-<div class="Avis">
-
-  <div class="Avis_1">
-    
-    <div class="Pack"> <!-- Image + Nom + Etoiles--> 
-
-      
-    
-      <div class="nom"> <!--Nom + Avatar-->
-
-          <img src="https://images.unsplash.com/profile-1525284649992-1edaf473e54f?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff.png" alt="Avatar" class = "avatar">
-        
+  <h2 id="ancre_comment">Comments</h2>
+  <div class="Avis">
+    <div class="Avis_1">   
+      <div class="Pack"> <!-- Image + Nom + Etoiles-->    
+        <div class="nom"> <!--Nom + Avatar-->
+          <img src="https://images.unsplash.com/profile-1525284649992-1edaf473e54f?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff.png" alt="Avatar" class = "avatar">       
           <p><strong>Ken</strong></p>
+      </div>     
+        <div class ="Stars"> <!--Etoiles-->        
+          <i class="fas fa-star gold"></i>
+          <i class="fas fa-star gold"></i>
+          <i class="fas fa-star gold"></i>
+          <i class="fas fa-star gold"></i>
+          <i class="far fa-star gray"></i><br /><br />
+        </div>    
       </div>
-      
-      <div class ="Stars"> <!--Etoiles-->
-         
-        <i class="fas fa-star gold"></i>
-        <i class="fas fa-star gold"></i>
-        <i class="fas fa-star gold"></i>
-        <i class="fas fa-star gold"></i>
-        <i class="far fa-star gray"></i><br /><br />
-      </div>
-      
-
-    </div>
-
       <div class="texte"> <!--Texte-->
-
-        <p>Delicious, fresh and at reasonable prices.<br/> 
+      <p>Delicious, fresh and at reasonable prices.<br/> 
            An institution on the right bank.<br/>
            To try absolutely. <br/><br/>
            Date of the visit: July 2019.</p> 
-
-        </div>
-    
-    
-      
-    
-  </div>
-
-  
-    
-  <div class="Avis_2">
-
-    <div class="Pack"> <!-- Image + Nom + Avatar_2-->
-
-
-      <div class ="nom"> <!--Nom + Etoiles_2-->
-
-        <img src="https://images.unsplash.com/profile-1520481962707-b6f23b4ccd9f?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff" alt="Avatar" class="avatar">
-
-        
-        <p><strong>Jeanine</strong></p>
-      </div>
-
+    </div>
+    <div class="Avis_2">
 
 
       <div class="Stars"> <!--Etoiles_2-->
@@ -222,38 +164,59 @@
               A little change would be welcome !! <br/><br/>
             Date of the visit : September 2019.</p>
           
-          </div>
-            
-            
-        
+          </div>                             
   </div>
 
-</div>
 
-  <!-- Events -->
-  <!-- Footer -->
-
-
-  <!-- Events -->
-  <h2 id="ancre_event">Events</h2>
-  <div class="card-event">
-    <h3>Humming recrutes</h3>
-    <div class="content-event">
-      <div>
-        <img src="./images/recruitment.jpeg" alt="recruitment">
-      </div>
-      <div>
-      <p>CDD contract in kitchen</p>
-      <p>Experience in restoration strongly recommended</p>
-      <p>Week and noon only</p>
-      </div>
-      <a href="#" class="btn-green">Join us</a>
+<section>
+  <h2 id="ancre_comment">Leave us a comment</h2>
+  <form action="comment.html" method="post">
+    <div>
+       <label for="comment"><img src="https://img.icons8.com/windows/24/000000/talk-male--v2.png"></label>
+       <textarea id="comment" name="comment" cols="320" rows="5" class="comment" required></textarea>
     </div>
-  </div>
+    <br>
+    <div>
+      <a href="#" class="btn-green">Send</a>
+    </div>
+  </form>
 
-  <!-- map-->
+</section>
 
-  <section>
+  <!-- Events -->
+  <section class="section-event">
+    <h2 id="ancre_event">Events</h2>
+    <div class="card-event">
+      <h3>Humming recrutes</h3>
+      <div class="content-event">
+        <div>
+          <img src="./images/recruitment.jpeg" alt="recruitment">
+        </div>
+        <div>
+        <p>CDD contract in kitchen</p>
+        <p>Experience in restoration strongly recommended</p>
+        <p>Week and noon only</p>
+        </div>
+        <a href="#" class="btn-green">Join us</a>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+
+  <section class="contact">
+    <h2 id="ancre_contact">Contact</h2>
+    <div class="card-event">
+      <p><strong>Address :</strong> 8 place de Stalingrad, 33100 Bordeaux.</p>
+      <p><strong>Phone number :</strong> +33 9 83 21 23 53.</p>
+      <p><strong>Opening :</strong> Monday to friday at 11.30am to 2.30pm.</p>
+    </div>
+  </section>
+
+    <!-- map-->
+
+    <section>
       <h2 class="h2map">Find us !</h2>
     <div .class="map">
       <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.061878365739!2d-0.562577549461917!3d44.84067318275004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd55262d9150f6d3%3A0x4a844316b887ecb1!2s8%20Place%20de%20Stalingrad%2C%2033100%20Bordeaux!5e0!3m2!1sfr!2sfr!4v1568815106541!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
@@ -262,7 +225,11 @@
 
 <br>
 
+</div>
+
+
   <!-- Footer -->
+
 <footer>
   <div class="social-network">
     <a href=""><i class="fab fa-facebook-f"></i></a>
