@@ -17,7 +17,7 @@
     <div class="items">
       <ul>
         <li><a href="#ancre_menu">MENU</a></li>
-        <li><a href="#">RESERVATION</a></li>
+        <li><a href="#ancre_booking">BOOKING</a></li>
         <li><a href="#">COMMENTS</a></li>
         <li><a href="#ancre_event">EVENTS</a></li>
       </ul>
@@ -25,16 +25,17 @@
     </div>
   </nav>
 <div class="container">
+  <!-- banner -->
     <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://images.unsplash.com/photo-1521017432531-fbd92d768814?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);"> 
       <div class="container_banner">
           <h1>HUMMING <strong>good food</strong> in <strong> the right place</strong> ! </h1>
           <p>Eat simple and good by disconnecting from the hustle and bustle of the city.</p>
       </div>
     </div>
-  <!-- banner -->
+  <!-- about us -->
   <div class="apropos">
     <div class="card-event">
-    <h2>A propos</h2>
+    <h2>About us</h2>
     <p>Humming a été conçu avec du désir, celui de créer quelque chose qui vienne de nous, de voler de ses propres ailes, de concrétiser notre bourdonnement créatif… Avec de l’amour, celui des bonnes choses, de la gourmandise, des relations humaines et de la créativité… Et enfin avec de l’ambition, celle de se dépasser, de faire aimer et évoluer notre concept.</p>
     <p>Nous l’avons qualifié de « néo-snack », c’est un concept urbain et branché de restauration rapide. On vient y piocher, au gré des saisons et de ses envies, du fait maison, des produits bruts transformés en soupes healthy ou gaspachos, en salades follement fraîches ou sandwichs avec du bon pain de boulanger. En bref, on y mange du beau et du bon dans un cadre chaleureux, fédérateur de relations humaines, de rencontres en tout genre et de découvertes diverses.</p>
     <p>C’est un lieu qui s’inspire et qui est inspirant. On a scruté la blogosphère, arpenté les brocantes, à la recherche d’idées « DÉCO ET GASTRO », afin d’apporter une réelle cohérence entre le lieu et l’assiette. <br>
@@ -56,55 +57,45 @@
       </div>
     </div>
   <!-- Formulaire resa -->
-  <section>
-
-    <h2 id="Booking">Booking</h2>
-    
-    <form action="booking.html" method="post">
-    
-        <div>
-            <label for="name"><img src="https://img.icons8.com/material-outlined/20/000000/head-profile.png"></label>
-            <input type="text" name="your name" id="name" class="nomform" required>
-        </div>
-    
-        <div>
-            <label for="email"><img src="https://img.icons8.com/ios-glyphs/20/000000/email.png"></label>
-            <input type="text" name="your email" id="email" class="email" required>
-        </div>
-        
-        <div>
-            <label for="tel"><img src="https://img.icons8.com/windows/20/000000/phone.png"></label>
-            <input type="tel" name="your phone number" id="tel" class="telephone">
-        </div>
-    <br>
-        <div>
-          <label><img src="https://img.icons8.com/ios/30/000000/restaurant.png"></label>
-                <select name="Topic" class="numberofseats" required> 
-                   <option>1</option>
-                   <option>2</option>
-                   <option>3</option>
-                   <option>4</option>
-                   <option>5</option>
-                   <option>6</option>
-                   <option>+ 6</option>
-                </select>
-        </div>
-    <br>
-        <div>
-
-            <label for="message"><img src="https://img.icons8.com/material-outlined/24/000000/communication.png"></label>
-
-            <textarea id="message" name="message" cols="45" rows="5" class="message" required>
-                  
-            </textarea>
-        </div>
-    <br>
-        <div class="button">
-            <button type="submit">Send</button>
-        </div>
-    
+  <section class="booking">
+    <h2 id="ancre_booking">Booking</h2>  
+    <form action="booking.html" method="post">  
+      <div>
+        <label for="name"><img src="https://img.icons8.com/material-outlined/20/000000/head-profile.png"></label>
+        <input type="text" name="your name" id="name" class="nomform" required>
+      </div>
+      <div>
+        <label for="email"><img src="https://img.icons8.com/ios-glyphs/20/000000/email.png"></label>
+        <input type="text" name="your email" id="email" class="email" required>
+      </div>       
+      <div>
+        <label for="tel"><img src="https://img.icons8.com/windows/20/000000/phone.png"></label>
+        <input type="tel" name="your phone number" id="tel" class="telephone">
+      </div>
+      <br>
+      <div>
+        <label><img src="https://img.icons8.com/ios/30/000000/restaurant.png"></label>
+        <select name="Topic" class="numberofseats" required> 
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>+ 6</option>
+        </select>
+      </div>
+      <br>
+      <div>
+        <label for="message"><img src="https://img.icons8.com/material-outlined/24/000000/communication.png"></label>
+        <textarea id="message" name="message" cols="45" rows="5" class="message" required>                  
+        </textarea>
+      </div>
+      <br>
+      <div>
+        <a href="#" class="btn-green">Send</a>
+      </div>   
     </form>
-    
     </section>
 
   <!-- Avis -->

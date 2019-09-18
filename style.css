@@ -1,6 +1,6 @@
 body 
 {
-  background-color: #F7F7F7;
+  background-color: #eadca6;
   color: #5a3921;
 }
 
@@ -13,7 +13,7 @@ p {
 }
 
 .container {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -130,21 +130,16 @@ h2 {
 
 /* Reservation */
 
+.booking {
+  padding: 64px;
+  border-bottom: 1px solid #5a3921;
+}
+
 form {
   text-align: center;
 }
-.nomform {
+input, select, textarea {
   width: 90%;
-}
-.email {
-  width: 90%;
-}
-.telephone {
-  width: 90%;
-}
-.numberofseats {
-  text-align-last: center;
-  width: 10%;
 }
 
 /* Events */
@@ -236,6 +231,9 @@ text-align: center;
 }
 
 @media screen and (min-width:961px) {
+  .container {
+    width: 80%;
+  }
   .navbar {
     position: sticky;
     top: 0px;
@@ -251,22 +249,12 @@ text-align: center;
     }
   .card-menu {
     height: 300px;
-    width: 450px;
-  }
-  .nomform {
-    width: 90%;
-  }
-  .email {
-    width: 90%;
-  }
-  .telephone {
-    width: 90%;
+    width: 400px;
   }
   .typeofrequest {
     align-content: left;
   }
   .message {
-    width: 80%;
     height: 120px;
   }
 }
