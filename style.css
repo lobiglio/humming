@@ -432,4 +432,10 @@ display: none;
 .form-comment {
   padding-bottom: 56px;
 }
+.contact {
+  border-bottom: 1px solid #5a3921;
+}
+.map {
+  margin-bottom: 16px;
+}
 }
