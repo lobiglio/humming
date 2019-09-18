@@ -151,6 +151,12 @@ form {
   width: 80%;
 }
 
+/* comment */
+
+.comment {
+  width: 90%;
+}
+
 /* Events */
 .card-event {
   background-color: white;
@@ -232,6 +238,9 @@ text-align: center;
   display: none;
 }
 .message {
+  width: 90%;
+}
+.comment {
   width: 90%;
 }
 footer {
