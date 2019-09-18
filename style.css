@@ -92,7 +92,7 @@ h3 {
   padding: 150px 0;
   object-fit: cover;
   margin-top: 24px;
-  margin-bottom: 64px;
+  margin-bottom: 24px;
 }
 
 .banner h1 
@@ -133,7 +133,7 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding-bottom: 64px;
+  padding-bottom: 24px;
   border-bottom: 1px solid #5a3921;
 }
 
@@ -157,7 +157,7 @@ h2 {
 /* Reservation */
 
 .booking {
-  padding-bottom: 64px;
+  padding-bottom: 24px;
   border-bottom: 1px solid #5a3921;
 }
 
@@ -176,7 +176,7 @@ input, select, textarea {
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   padding: 1%;
-  margin-bottom: 64px;
+  margin-bottom: 24px;
 }
 
 .content-event {
@@ -278,15 +278,25 @@ footer a {
   .fa-bars {
     display: none;
     }
+  .banner {
+    margin-bottom: 56px;
+  }
   h2 {
     text-align: left;
   }
   .menu {
     justify-content: space-between;
+    padding-bottom: 56px;
     }
   .card-menu {
     height: 300px;
-    width: 400px;
+    width: 400px;    
+  }
+  .card-event {
+    margin-bottom: 56px;
+  }
+  .booking {
+    padding-bottom: 56px;
   }
   .message {
     height: 120px;
