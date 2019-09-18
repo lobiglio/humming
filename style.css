@@ -257,6 +257,11 @@ margin-bottom: 24px;
   flex-wrap: wrap;
 }
 
+.section-event {
+  padding-bottom: 24px;
+  border-bottom: 1px solid #5a3921;
+}
+
 .content-event img {
   width: 100%;
   height: auto;
@@ -273,6 +278,12 @@ margin-bottom: 24px;
 
 .btn-green:hover {
   background-color: #7bc67b;
+}
+
+/* Contact */
+
+.contact p {
+  padding-left: 4px;
 }
 
 /* footer */

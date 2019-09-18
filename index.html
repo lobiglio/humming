@@ -21,6 +21,7 @@
         <li><a href="#ancre_booking">BOOKING</a></li>
         <li><a href="#ancre_comment">COMMENTS</a></li>
         <li><a href="#ancre_event">EVENTS</a></li>
+        <li><a href="#ancre_contact">CONTACT</a></li>
       </ul>
       <a href="javascript:void(0);"><i class="fas fa-bars burger" onclick="myFunction()"></i></a>
     </div>
@@ -28,8 +29,9 @@
   <div id="myLinks" class="nav-links">
     <a href="#ancre_menu">Menu</a>
     <a href="#ancre_booking">Booking</a>
-    <a href="#ancre_comment">Comment</a>
-    <a href="#ancre_event">Event</a>
+    <a href="#ancre_comment">Comments</a>
+    <a href="#ancre_event">Events</a>
+    <a href="#ancre_contact">Contact</a>
   </div>
 <div class="container">
 
@@ -120,7 +122,7 @@
 
   <!-- Avis -->
 
-  <h2>Avis</h2>
+  <h2 id="ancre_comment">Comments</h2>
   <div class="Avis">
     <div class="Avis_1">   
       <div class="Pack"> <!-- Image + Nom + Etoiles-->    
@@ -170,7 +172,7 @@
   <!--Leave a comment-->
 
   <section class="form-comment">
-    <h2 id="ancre_comment">Leave us a comment</h2>
+    <h2>Leave us a comment</h2>
     <form action="comment.html" method="post">
       <div>
          <label for="comment"><img src="https://img.icons8.com/windows/24/000000/talk-male--v2.png"></label>
@@ -184,23 +186,39 @@
   </section>
 
   <!-- Events -->
-  <h2 id="ancre_event">Events</h2>
-  <div class="card-event">
-    <h3>Humming recrutes</h3>
-    <div class="content-event">
-      <div>
-        <img src="./images/recruitment.jpeg" alt="recruitment">
+  <section class="section-event">
+    <h2 id="ancre_event">Events</h2>
+    <div class="card-event">
+      <h3>Humming recrutes</h3>
+      <div class="content-event">
+        <div>
+          <img src="./images/recruitment.jpeg" alt="recruitment">
+        </div>
+        <div>
+        <p>CDD contract in kitchen</p>
+        <p>Experience in restoration strongly recommended</p>
+        <p>Week and noon only</p>
+        </div>
+        <a href="#" class="btn-green">Join us</a>
       </div>
-      <div>
-      <p>CDD contract in kitchen</p>
-      <p>Experience in restoration strongly recommended</p>
-      <p>Week and noon only</p>
-      </div>
-      <a href="#" class="btn-green">Join us</a>
     </div>
-  </div>
+  </section>
+
+  <!-- Contact -->
+
+  <section class="contact">
+    <h2 id="ancre_contact">Contact</h2>
+    <div class="card-event">
+      <p><strong>Address :</strong> 8 place de Stalingrad, 33100 Bordeaux.</p>
+      <p><strong>Phone number :</strong> +33 9 83 21 23 53.</p>
+      <p><strong>Opening :</strong> Monday to friday at 11.30am to 2.30pm.</p>
+    </div>
+  </section>
+
 </div>
+
   <!-- Footer -->
+
 <footer>
   <div class="social-network">
     <a href=""><i class="fab fa-facebook-f"></i></a>
