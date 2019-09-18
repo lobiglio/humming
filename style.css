@@ -40,6 +40,7 @@ body
 {
   color: grey;
 }
+
 /* Banner */
 
 .banner 
@@ -77,6 +78,70 @@ body
   margin: 0 auto;
 }
 
+/* Avis*/
+
+.Avis 
+{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+.Avis_1
+{
+  display:flex;
+  flex-direction: column ;
+  height: 200px;
+  width: 400px;
+  background-color:white;
+  border-radius: 30px;
+  border:1px solid black;
+  text-align: center;
+}
+
+
+.gold{ color: gold;}
+
+.gray{ color: gray;}
+
+
+.avatar 
+{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10%;
+}
+
+.Pack
+{
+  display: flex;
+  flex: column;
+  justify-content: space-around;
+  align-content: center ;
+}
+
+.Stars
+{
+  display: flex;
+  margin-top: 5%;
+}
+
+.nom
+{
+  display: flex;
+  margin-top: 5%;
+  margin-left: 35%;
+}
+
+.text
+{
+  display: flex ;
+  font-family:sans-serif;
+  align-self: center;
+}
+
 /* Media */
 
 @media screen and (max-width:961px) 
@@ -106,9 +171,49 @@ text-align: center;
 
 }
 
+.Avis_2
+{
+display: none;
+}
+
 @media screen and (min-width:961px) {
-  .fa-bars {
+  .fa-bars 
+  {
     display: none;
   }
+
+  .Avis
+  { 
+    flex-direction: row;
+    margin-top: 10%;
+    align-content: space-around;
+  }
+  
+  .Avis_1
+  {
+    height: 200px;
+    width: 400px;
+    background-color:white;
+    border-radius: 30px;
+    
+    text-align: center;
+    margin-right: 5%;
+  }
+
+  .Avis_2
+  {
+    display:flex;
+    flex-direction: column ;
+    align-content: center ;
+    height: 200px;
+    width: 400px;
+    background-color:white;
+    border-radius: 30px;
+    border:1px solid black;
+    text-align: center;
+  }
+
+
+
 
 }
