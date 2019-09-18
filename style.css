@@ -22,6 +22,8 @@ h3 {
   text-align: center;
 }
 
+/* navbar */
+
 .navbar 
 {
   background-color: white;
@@ -120,10 +122,56 @@ h2 {
   text-align: center;
 }
 
-
 /* A propos */
 
-/* Avis*/
+.apropos {
+  border-bottom: 1px solid #5a3921;
+  word-wrap: initial;
+}
+
+/* Menu */
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #5a3921;
+}
+
+.card-menu {
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin: 0 16px 16px 16px;
+}
+
+/* Reservation */
+
+.booking {
+  padding-bottom: 24px;
+  border-bottom: 1px solid #5a3921;
+}
+
+form {
+  text-align: center;
+}
+input, select, textarea {
+  width: 90%;
+}
+
+/* comment */
 
 .Avis 
 {
@@ -131,6 +179,7 @@ display: flex;
 justify-content: center;
 flex-direction: column;
 align-items: center;
+margin-bottom: 24px;
 }
 
 .Avis_1
@@ -187,57 +236,10 @@ align-items: center;
   align-self: center;
 }
 
-/* Media */
-
-
-.apropos {
-  border-bottom: 1px solid #5a3921;
-  word-wrap: initial;
-}
-
-/* Menu */
-
-.menu {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+.form-comment {
   padding-bottom: 24px;
   border-bottom: 1px solid #5a3921;
 }
-
-.card-menu {
-  background-size: cover;
-  background-position: center;
-  height: 200px;
-  width: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 24px;
-  font-weight: bold;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  border-radius: 5px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  margin: 0 16px 16px 16px;
-}
-
-/* Reservation */
-
-.booking {
-  padding-bottom: 24px;
-  border-bottom: 1px solid #5a3921;
-}
-
-form {
-  text-align: center;
-}
-input, select, textarea {
-  width: 90%;
-}
-
-/* comment */
 
 /* Events */
 .card-event {
@@ -372,7 +374,6 @@ display: none;
     text-align: left;
   }
   .menu {
-    justify-content: space-between;
     padding-bottom: 56px;
     }
   .card-menu {
@@ -389,13 +390,11 @@ display: none;
     height: 120px;
     align-self: auto;
   }
-
-
   .Avis
   { 
     flex-direction: row;
-    margin-top: 10%;
     align-content: space-around;
+    margin-bottom: 56px;
   }
   
   .Avis_1
@@ -419,9 +418,7 @@ display: none;
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     text-align: center;
   }
-
-
-
-
-
+.form-comment {
+  padding-bottom: 56px;
+}
 }
