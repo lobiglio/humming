@@ -28,7 +28,29 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 24px;
+  overflow: hidden;
+  position: relative;
+}
+
+#myLinks {
+  display: none;
+}
+
+.nav-links {
+  background-color: white;
+}
+
+.nav-links a {
+  color: #5a3921;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.nav-links a:hover, .burger:hover {
+  background-color: #5a3921;
+  color: #ffffb5;
 }
 
 #logo 
@@ -40,7 +62,8 @@ h3 {
 .fa-bars 
 {
   font-size: 3.5rem;
-  margin: 0.8rem 0.4rem;
+  padding: 0.8rem;
+  color: #5a3921;
 }
 
 .items ul li 
@@ -60,6 +83,7 @@ h3 {
 {
   color: #6b8c42;
 }
+
 /* Banner */
 
 .banner 
@@ -68,7 +92,8 @@ h3 {
   background-position: center;
   padding: 150px 0;
   object-fit: cover;
-  margin-bottom: 64px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .banner h1 
@@ -95,7 +120,75 @@ h2 {
   text-align: center;
 }
 
+
 /* A propos */
+
+/* Avis*/
+
+.Avis 
+{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+.Avis_1
+{
+  display:flex;
+  flex-direction: column ;
+  height: 200px;
+  width: 400px;
+  background-color:white;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+
+.gold{ color: gold;}
+
+.gray{ color: gray;}
+
+
+.avatar 
+{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10%;
+}
+
+.Pack
+{
+  display: flex;
+  flex: column;
+  justify-content: space-around;
+  align-content: center ;
+}
+
+.Stars
+{
+  display: flex;
+  margin-top: 5%;
+}
+
+.nom
+{
+  display: flex;
+  margin-top: 5%;
+  margin-left: 35%;
+}
+
+.text
+{
+  display: flex ;
+  font-family:sans-serif;
+  align-self: center;
+}
+
+/* Media */
+
 
 .apropos {
   border-bottom: 1px solid #5a3921;
@@ -109,7 +202,7 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding-bottom: 64px;
+  padding-bottom: 24px;
   border-bottom: 1px solid #5a3921;
 }
 
@@ -133,7 +226,7 @@ h2 {
 /* Reservation */
 
 .booking {
-  padding-bottom: 64px;
+  padding-bottom: 24px;
   border-bottom: 1px solid #5a3921;
 }
 
@@ -152,7 +245,7 @@ input, select, textarea {
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   padding: 1%;
-  margin-bottom: 64px;
+  margin-bottom: 24px;
 }
 
 .content-event {
@@ -255,7 +348,13 @@ footer a {
 }
 }
 
+.Avis_2
+{
+display: none;
+}
+
 @media screen and (min-width:961px) {
+
   .container {
     width: 80%;
   }
@@ -266,18 +365,63 @@ footer a {
   .fa-bars {
     display: none;
     }
+  .banner {
+    margin-bottom: 56px;
+  }
   h2 {
     text-align: left;
   }
   .menu {
     justify-content: space-between;
+    padding-bottom: 56px;
     }
   .card-menu {
     height: 300px;
-    width: 400px;
+    width: 400px;    
+  }
+  .card-event {
+    margin-bottom: 56px;
+  }
+  .booking {
+    padding-bottom: 56px;
   }
   .message {
     height: 120px;
     align-self: auto;
   }
+
+
+  .Avis
+  { 
+    flex-direction: row;
+    margin-top: 10%;
+    align-content: space-around;
+  }
+  
+  .Avis_1
+  {
+    height: 200px;
+    width: 400px;
+    background-color:white;
+    text-align: center;
+    margin-right: 5%;
+  }
+
+  .Avis_2
+  {
+    display:flex;
+    flex-direction: column ;
+    align-content: center ;
+    height: 200px;
+    width: 400px;
+    background-color:white;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    text-align: center;
+  }
+
+
+
+
+
 }
