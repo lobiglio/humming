@@ -18,7 +18,7 @@
     <div class="items">
       <ul>
         <li><a href="#ancre_menu">MENU</a></li>
-        <li><a href="#booking">RESERVATION</a></li>
+        <li><a href="#ancre_booking">BOOKING</a></li>
         <li><a href="#ancre_comment">COMMENTS</a></li>
         <li><a href="#ancre_event">EVENTS</a></li>
       </ul>
@@ -26,29 +26,26 @@
     </div>
   </nav>
 <div class="container">
+  <!-- banner -->
     <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://images.unsplash.com/photo-1521017432531-fbd92d768814?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);"> 
       <div class="container_banner">
           <h1>HUMMING <strong>good food</strong> in <strong> the right place</strong> ! </h1>
           <p>Eat simple and good by disconnecting from the hustle and bustle of the city.</p>
       </div>
     </div>
-  <!-- banner -->
+  <!-- about us -->
   <div class="apropos">
     <div class="card-event">
-    <h2>About</h2>
-
-    <p>Humming was born with desire, the one that creates something that comes to us, the will to spread our own wings, to make real our overwhelming creativity...
+      <h2>About</h2>
+      <p>Humming was born with desire, the one that creates something that comes to us, the will to spread our own wings, to make real our overwhelming creativity...
       With love, love for genuine things, for the good food, for human relationships and creativity...
       And last but not least, with ambition to get better, to share and improve our concept.</p>
-
-      <div class="textfordesktop">
+     <div class="textfordesktop">
     <p> We called it "Neo Snack", an urban and trendy concept of fast food. You will come, depending on the seasons or your wishes, to pick homemade food, raw products turned into healthy soups or gazpachos, into crazily fresh salads or sandwiches with tasty fresh bread.
-      In a nutshell, tasty and beautiful meals in a welcoming place, that stimulates human relationships, any kind of meetings and various discoveries.</P>
-      
+      In a nutshell, tasty and beautiful meals in a welcoming place, that stimulates human relationships, any kind of meetings and various discoveries.</P>      
     <p>This is both an inspired and inspiring place. We've been through the blogosphere, wandered the flea markets, searching for "deco and gastro", in order to make this place and our meals harmonious. <br>
           Well, this being said, you might feel like we're showing off a bit but honnestly, we hope you will enjoy and that you will come to visit us... over and over !!</p>
-      </div>
-    
+      </div>   
     </div>
   </div>
   <!-- Menus -->
@@ -65,78 +62,63 @@
       </div>
     </div>
   <!-- Formulaire resa -->
-  <section>
 
-    <h2 id="booking">Booking</h2>
-    
-    <form action="booking.html" method="post">
-    
-        <div>
-            <label for="name"><img src="https://img.icons8.com/material-outlined/20/000000/head-profile.png"></label>
-            <input type="text" name="your name" id="name" class="nomform" required>
-        </div>
-    
-        <div>
-            <label for="email"><img src="https://img.icons8.com/ios-glyphs/20/000000/email.png"></label>
-            <input type="text" name="your email" id="email" class="email" required>
-        </div>
-        
-        <div>
-            <label for="tel"><img src="https://img.icons8.com/windows/20/000000/phone.png"></label>
-            <input type="tel" name="your phone number" id="tel" class="telephone">
-        </div>
-    <br>
-        <div>
-          <label><img src="https://img.icons8.com/ios/30/000000/restaurant.png"></label>
-                <select name="Topic" class="numberofseats" required> 
-                   <option>1</option>
-                   <option>2</option>
-                   <option>3</option>
-                   <option>4</option>
-                   <option>5</option>
-                   <option>6</option>
-                   <option>+ 6</option>
-                </select>
-        </div>
-    <br>
-        <div>
-            <label for="message"><img src="https://img.icons8.com/material-outlined/24/000000/communication.png"></label>
-            <textarea id="message" name="message" cols="320" rows="5" class="message" required></textarea>
-        </div>
-    <br>
-        <div class="button">
-            <button type="submit">Submit</button>
-        </div>
-    
+  <section class="booking">
+    <h2 id="ancre_booking">Booking</h2>  
+    <form action="booking.html" method="post">  
+      <div>
+        <label for="name"><img src="https://img.icons8.com/material-outlined/20/000000/head-profile.png"></label>
+        <input type="text" name="your name" id="name" class="nomform" required>
+      </div>
+      <div>
+        <label for="email"><img src="https://img.icons8.com/ios-glyphs/20/000000/email.png"></label>
+        <input type="text" name="your email" id="email" class="email" required>
+      </div>       
+      <div>
+        <label for="tel"><img src="https://img.icons8.com/windows/20/000000/phone.png"></label>
+        <input type="tel" name="your phone number" id="tel" class="telephone">
+      </div>
+      <br>
+      <div>
+        <label><img src="https://img.icons8.com/ios/30/000000/restaurant.png"></label>
+        <select name="Topic" class="numberofseats" required> 
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>+ 6</option>
+        </select>
+      </div>
+      <br>
+      <div>
+        <label for="message"><img src="https://img.icons8.com/material-outlined/24/000000/communication.png"></label>
+        <textarea id="message" name="message" cols="45" rows="5" class="message" required>                  
+        </textarea>
+      </div>
+      <br>
+      <div>
+        <a href="#" class="btn-green">Send</a>
+      </div>   
     </form>
-    
-    </section>
-    <br>
-
-    <hr>
+  </section>
 
   <!-- Avis -->
   <!--Leave a comment-->
-     <section>
-
+  <section>
     <h2 id="ancre_comment">Leave us a comment</h2>
-
-  <form action="comment.html" method="post">
-
+    <form action="comment.html" method="post">
       <div>
          <label for="comment"><img src="https://img.icons8.com/windows/24/000000/talk-male--v2.png"></label>
          <textarea id="comment" name="comment" cols="320" rows="5" class="comment" required></textarea>
       </div>
-<br>
-
-      <div class="button">
-        <button type="submit">Send</button>
+      <br>
+      <div>
+        <a href="#" class="btn-green">Send</a>
       </div>
-
-      </section>
-
-  <br>
-  <hr>
+    </form>
+  </section>
 
   <!-- Events -->
   <h2 id="ancre_event">Events</h2>
