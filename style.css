@@ -180,6 +180,12 @@ input, select, textarea {
   background-color: #7bc67b;
 }
 
+/* map */
+
+.map {
+align-content: center;
+}
+
 /* footer */
 footer {
   background-color: #5a3921;
@@ -240,6 +246,12 @@ footer a {
 }
 .social-network {
   margin-bottom: 16px;
+}
+.h2map {
+  display: none;
+}
+.map {
+  display: none;
 }
 }
 
