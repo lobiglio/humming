@@ -4,13 +4,22 @@ body
   color: #5a3921;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: 'Roboto Slab', serif;
+  
 }
 
 p {
   font-family: 'Lato', sans-serif;
   overflow-wrap: break-word;
+}
+
+.link
+{
+color: white;
+text-decoration: none;
+
+
 }
 
 .container {
@@ -238,8 +247,108 @@ margin-bottom: 24px;
 
 .form-comment {
   padding-bottom: 24px;
+
   border-bottom: 1px solid #5a3921;
 }
+
+
+/* Menu */
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 64px;
+  border-bottom: 1px solid #5a3921;
+}
+
+.card-menu {
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin: 0 16px 16px 16px;
+}
+
+/* Sandwishes */
+
+.presentation
+{
+display: flex;
+margin-bottom: 5%;
+text-align: center;
+}
+
+
+.san_menu
+{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+align-items: center;
+padding-bottom: 64px;
+border-bottom: 1px solid #5a3921;
+}
+
+.card-san
+{
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin: 0 16px 16px 16px;
+  text-align: center;
+}
+
+.description
+
+{
+  opacity: 0 ;
+  padding: 100px ;
+}
+
+.description:hover
+{
+  opacity: 1;
+}
+
+
+
+
+/* Reservation */
+
+.booking {
+  padding-bottom: 64px;
+  border-bottom: 1px solid #5a3921;
+}
+
+form {
+  text-align: center;
+}
+input, select, textarea {
+  width: 90%;
+}
+
+/* comment */
+
 
 /* Events */
 .card-event {
@@ -366,6 +475,8 @@ footer a {
 display: none;
 }
 
+
+
 @media screen and (min-width:961px) {
 
   .container {
@@ -429,6 +540,23 @@ display: none;
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     text-align: center;
   }
+
+
+  .san_menu
+  {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: ;
+  }
+
+  .card-san
+  {
+    height: 300px;
+    width:  400px;
+  }
+
 .form-comment {
   padding-bottom: 56px;
 }
@@ -438,4 +566,5 @@ display: none;
 .map {
   margin-bottom: 16px;
 }
+
 }
