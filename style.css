@@ -6,11 +6,20 @@ body
 
 h1, h2, h3, h4 {
   font-family: 'Roboto Slab', serif;
+  
 }
 
 p {
   font-family: 'Lato', sans-serif;
   overflow-wrap: break-word;
+}
+
+.link
+{
+color: white;
+text-decoration: none;
+
+
 }
 
 .container {
@@ -22,13 +31,37 @@ h3 {
   text-align: center;
 }
 
+/* navbar */
+
 .navbar 
 {
   background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 24px;
+  overflow: hidden;
+  position: relative;
+}
+
+#myLinks {
+  display: none;
+}
+
+.nav-links {
+  background-color: white;
+}
+
+.nav-links a {
+  color: #5a3921;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.nav-links a:hover, .burger:hover {
+  background-color: #5a3921;
+  color: #ffffb5;
 }
 
 #logo 
@@ -40,7 +73,8 @@ h3 {
 .fa-bars 
 {
   font-size: 3.5rem;
-  margin: 0.8rem 0.4rem;
+  padding: 0.8rem;
+  color: #5a3921;
 }
 
 .items ul li 
@@ -69,7 +103,8 @@ h3 {
   background-position: center;
   padding: 150px 0;
   object-fit: cover;
-  margin-bottom: 64px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .banner h1 
@@ -96,10 +131,56 @@ h2 {
   text-align: center;
 }
 
-
 /* A propos */
 
-/* Avis*/
+.apropos {
+  border-bottom: 1px solid #5a3921;
+  word-wrap: initial;
+}
+
+/* Menu */
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #5a3921;
+}
+
+.card-menu {
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin: 0 16px 16px 16px;
+}
+
+/* Reservation */
+
+.booking {
+  padding-bottom: 24px;
+  border-bottom: 1px solid #5a3921;
+}
+
+form {
+  text-align: center;
+}
+input, select, textarea {
+  width: 90%;
+}
+
+/* comment */
 
 .Avis 
 {
@@ -107,6 +188,7 @@ display: flex;
 justify-content: center;
 flex-direction: column;
 align-items: center;
+margin-bottom: 24px;
 }
 
 .Avis_1
@@ -163,11 +245,12 @@ align-items: center;
   align-self: center;
 }
 
+.form-comment {
+  padding-bottom: 24px;
 
-.apropos {
   border-bottom: 1px solid #5a3921;
-  word-wrap: initial;
 }
+
 
 /* Menu */
 
@@ -203,6 +286,7 @@ align-items: center;
 {
 display: flex;
 margin-bottom: 5%;
+text-align: center;
 }
 
 
@@ -265,13 +349,14 @@ input, select, textarea {
 
 /* comment */
 
+
 /* Events */
 .card-event {
   background-color: white;
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   padding: 1%;
-  margin-bottom: 64px;
+  margin-bottom: 24px;
 }
 
 .content-event {
@@ -279,6 +364,11 @@ input, select, textarea {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.section-event {
+  padding-bottom: 24px;
+  border-bottom: 1px solid #5a3921;
 }
 
 .content-event img {
@@ -297,6 +387,18 @@ input, select, textarea {
 
 .btn-green:hover {
   background-color: #7bc67b;
+}
+
+/* map */
+
+.map {
+align-content: center;
+}
+
+/* Contact */
+
+.contact p {
+  padding-left: 4px;
 }
 
 /* footer */
@@ -360,6 +462,12 @@ footer a {
 .social-network {
   margin-bottom: 16px;
 }
+.h2map {
+  display: none;
+}
+.map {
+  display: none;
+}
 }
 
 .Avis_2
@@ -381,27 +489,34 @@ display: none;
   .fa-bars {
     display: none;
     }
+  .banner {
+    margin-bottom: 56px;
+  }
   h2 {
     text-align: left;
   }
   .menu {
-    justify-content: space-between;
+    padding-bottom: 56px;
     }
   .card-menu {
     height: 300px;
-    width: 400px;
+    width: 400px;    
+  }
+  .card-event {
+    margin-bottom: 56px;
+  }
+  .booking {
+    padding-bottom: 56px;
   }
   .message {
     height: 120px;
     align-self: auto;
   }
-
-
   .Avis
   { 
     flex-direction: row;
-    margin-top: 10%;
     align-content: space-around;
+    margin-bottom: 56px;
   }
   
   .Avis_1
@@ -426,6 +541,7 @@ display: none;
     text-align: center;
   }
 
+
   .san_menu
   {
     display: flex;
@@ -441,8 +557,14 @@ display: none;
     width:  400px;
   }
 
-
-
-
+.form-comment {
+  padding-bottom: 56px;
+}
+.contact {
+  border-bottom: 1px solid #5a3921;
+}
+.map {
+  margin-bottom: 16px;
+}
 
 }
