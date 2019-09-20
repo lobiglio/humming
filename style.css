@@ -174,7 +174,7 @@ textarea {
 
 /* comment */
 
-.Avis {
+.avis {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -182,7 +182,7 @@ textarea {
   margin-bottom: 24px;
 }
 
-.Avis_1 {
+.avis-1 {
   display: flex;
   flex-direction: column;
   height: 200px;
@@ -208,14 +208,14 @@ textarea {
   margin-right: 10%;
 }
 
-.Pack {
+.pack {
   display: flex;
   flex: column;
   justify-content: space-around;
   align-content: center;
 }
 
-.Stars {
+.stars {
   display: flex;
   margin-top: 5%;
 }
@@ -274,7 +274,7 @@ textarea {
   text-align: center;
 }
 
-.san_menu {
+.san-menu {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -451,7 +451,7 @@ footer a:hover {
   }
 }
 
-.Avis_2 {
+.avis-2 {
   display: none;
 }
 
@@ -489,13 +489,13 @@ footer a:hover {
     height: 120px;
     align-self: auto;
   }
-  .Avis {
+  .avis {
     flex-direction: row;
     align-content: space-around;
     margin-bottom: 56px;
   }
 
-  .Avis_1 {
+  .avis-1 {
     height: 200px;
     width: 400px;
     background-color: white;
@@ -503,7 +503,7 @@ footer a:hover {
     margin-right: 5%;
   }
 
-  .Avis_2 {
+  .avis-2 {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -515,7 +515,7 @@ footer a:hover {
     text-align: center;
   }
 
-  .san_menu {
+  .san-menu {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
